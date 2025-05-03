@@ -1,0 +1,39 @@
+/* 週刊文春記事一覧 */
+/* PC専用 */
+
+.shukan-kv {
+  background-image: url('../images/kv_bg_pc.webp');
+  background-size: auto 400px;
+  background-color: #001635;
+  padding: 72px 20px 62px;
+}
+.shukan-kv_logo {
+  width: 594px;
+  max-width: none;
+}
+.shukan-kv_text {
+  font-size: 3.6rem;
+  margin-top: 15px;
+}
+.shukan-kv_text span {
+  font-size: 5.4rem;
+  margin: 0 -16px;
+}
+.shukan-kv_button {
+  margin-top: 28px;
+}
+.shukan-kv_link {
+  --hover-opacity: 0.7;
+  padding: 1em 3em;
+}
+.shukan-kv_link:focus-visible {
+  opacity: var(--hover-opacity);
+}
+@media (any-hover: hover) {
+  .shukan-kv_link:hover {
+    opacity: var(--hover-opacity);
+  }
+}
+.shukan-kv_link span {
+  font-size: 2.8rem;
+}

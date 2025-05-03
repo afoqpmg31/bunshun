@@ -1,0 +1,51 @@
+/*500px*/
+.article-body .article-header span.author > .icon-author,
+.panel-top-article .inner .title > span.author > .icon-author,
+.author-profile .profile-image,
+.category-authors__thumb,
+.article-author-profile .icon-author,
+.author-profile.pc .left.profile-image,
+ul li .list-author-icon,
+main .top-headliner .item a .inner .icon-author,
+.article-header .author-header p.author .article-header-author-icon,
+.opponent-article-r .belongs .list-author-icon,
+.joining div.list-author-icon,
+.author-header.article-author-profile p.author .article-header-author-icon{
+  background-color: #00B7B5;
+  object-fit: cover;
+}
+
+.social-btns .fb span,
+.article-social-btn-bottom a.btn.facebook span.icon.facebook{
+background-image: url(../images/icon_fb.svg);
+}
+
+.social-btns .tw span,
+.article-social-btn-bottom a.btn.twitter span.icon.twitter{
+background-image: url(../images/icon_x.svg);
+}
+
+.social-btns .line span{
+background-image: url(../images/icon_line_tip.svg);
+}
+
+.social-btns .hatena span,
+.article-social-btn-bottom a.btn.hatena span.icon.hatena{
+background-image: url(../images/icon_hatena.svg);
+}
+
+.social-btns .insta span{
+background-image: url(../images/icon_instagram.svg);
+}
+
+.social-btns .yt span{
+background-image: url(../images/icon_youtube.svg);
+}
+
+.social-btns .tt span{
+background-image: url(../images/icon_tiktok.svg);
+}
+
+.social-btns .website span{
+background-image: url(../images/icon_website.svg);
+}
